@@ -1,3 +1,4 @@
+//Functions to create the elements of the ReadME
 function createLink(license) {
   if (license !== "None") {
     return `\n* [License](#license)\n`;
@@ -21,7 +22,7 @@ function createBadge(license) {
   return '';
 };
 
-
+// Creates the ReadME template and puts in the user data
 function create(data) {
     return `# ${data.title}
 ${createBadge(data.license)}
