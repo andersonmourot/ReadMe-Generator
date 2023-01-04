@@ -1,8 +1,10 @@
+//Require all of the dependencies
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 const create = require('./utils/create');
 
+// This const holds all of the prompts, which are the questions the user is asked
 const prompts = [
     {
         type: 'input',
@@ -54,6 +56,8 @@ const prompts = [
     },
 ];
 
+
+//Functions to write the data into a file to create the ReadME
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 };
