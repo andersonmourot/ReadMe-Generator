@@ -53,3 +53,16 @@ const prompts = [
         message: 'What does the user need to know about using the repo?',
     },
 ];
+
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+};
+
+function run() {
+    inquirer.prompt(prompts).then((inquirerResponses) => {
+        console.log('Generating ReadMe');
+        writeToFile('README.md', create({...inquirerResponses}));
+    });
+};
+
+run();
