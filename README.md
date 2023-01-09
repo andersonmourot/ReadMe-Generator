@@ -27,7 +27,7 @@ npm i
 ```
 
 ## Usage
-Nothing
+Used tp create ReadME files for projects.
 ## License
     
 This project is licensed under the MIT license.
