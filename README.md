@@ -5,7 +5,8 @@
 This project is a ReadME generator. It uses inquirer to give the user prompts which are then used to make a ReadME file for any project.
 
 ## Video Links
-https://drive.google.com/file/d/1FMdzYGUrAiqxDXQgZorpYAFqAQvZJHzW/viewLinks
+https://drive.google.com/file/d/1FMdzYGUrAiqxDXQgZorpYAFqAQvZJHzW/view
+Video showing functionality: https://drive.google.com/file/d/1XSSG6eZ58twlOdS2Nl0q1HDBSwUfgba3/view
 ## Table of Contents
 
 *[Installation](#installation)
